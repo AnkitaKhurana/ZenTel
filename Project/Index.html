@@ -1,0 +1,162 @@
+<html>
+	<head>
+		<title>Home page</title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="slider.js"></script>
+		<script src="smoothscroll.js"></script>
+		<link rel="stylesheet" href="slider.css">
+		<link rel="stylesheet" href="header.css">
+		<link rel="stylesheet" href="columns.css">
+		<link rel="stylesheet" href="footer.css">
+	</head>
+	<body>
+		<div class="header">
+			<h1 id="webname" style="cursor:pointer;" onclick="window.location='index.html'"><span style="color:blue;">Gadget</span><span style="color:red;">Palace</span></h1>
+			<div class="nav-bar">
+				<ul class="menu">
+					<li style="margin-left:-25px;"><a href="#">Smartphones</a></li
+					><li><a href="#">Tablets</a></li
+					><li><a href="#brands">Brands</a></li>
+				</ul>
+				<ul class="signin">
+					<li style="margin-right:30"><a href="#">Sign In</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="slider-container">
+			<canvas id="Canvas1" width="20" height="60" style="right:20;">Your browser does not support the canvas element.</canvas>
+			<canvas id="Canvas2" width="20" height="60" style="left:20;">Your browser does not support the canvas element.</canvas>
+			<div class="slider">
+				<div>
+					<img src="slider\pic1.jpg">
+				</div>
+				<div>
+					<img src="slider\pic2.jpg">
+				</div>
+				<div>
+					<img src="slider\pic3.jpg">
+				</div>
+				<div>
+					<img src="slider\pic4.jpg">
+				</div>
+			</div>
+			<div class="indicator">
+				<input type="radio" name="slider" id="r1"><label for="r1"><span></span></label>
+				<input type="radio" name="slider" id="r2"><label for="r2"><span></span></label>
+				<input type="radio" name="slider" id="r3"><label for="r3"><span></span></label>
+				<input type="radio" name="slider" id="r4"><label for="r4"><span></span></label>
+			</div>
+		</div>
+		<div class="row" style="height:600px;width:101%;">
+			<div class="col-md-6" style="text-align:center;">
+				<p class="title">Top Rated Smartphones</p>
+				<div class="column">
+					<img src="temp/oneplus3.jpg"/>
+					<div class="caption">
+						<p>Oneplus 3</p>
+					</div>
+				</div>
+				<div class="column" style="margin-right:-3px">
+					<img src="temp/s7edge.jpg"/>
+					<div class="caption">
+						<p>Galaxy S7 edge</p>
+					</div>
+				</div>
+				<div class="column">
+					<img src="temp/iphone.jpg"/>
+					<div class="caption">
+						<p>Iphone 6s</p>
+					</div>
+				</div>
+				<div class="column" style="margin-right:-3px">
+					<img src="temp/htc10.jpg"/>
+					<div class="caption">
+						<p>hTC 10</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6" style="text-align:center;">
+				<p class="title">Top Rated Tablets</p>
+				<div class="column">
+					<img alt="Tablet Pic"/>
+					<div class="caption">
+						<p></p>
+					</div>
+				</div>
+				<div class="column" style="margin-right:-3px">
+					<img alt="Tablet Pic"/>
+					<div class="caption">
+						<p></p>
+					</div>
+				</div>
+				<div class="column">
+					<img alt="Tablet Pic"/>
+					<div class="caption">
+						<p></p>
+					</div>
+				</div>
+				<div class="column" style="margin-right:-3px">
+					<img alt="Tablet Pic"/>
+					<div class="caption">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row" style="height:450px;width:101%;">
+			<div class="col-md-12" style="text-align:center;">
+				<p class="title" style="width:60%;" id="brands">Brands</p>
+				<div class="column" style="margin-left:35px;">
+					<img src="brands/samsung.png"/>
+				</div>
+				<div class="column">
+					<img src="brands/apple.png"/>
+				</div>
+				<div class="column">
+					<img src="brands/lenovo.jpg"/>
+				</div>
+				<div class="column">
+					<img src="brands/motorola.jpg"/>
+				</div>
+				<div class="column">
+					<img src="brands/Sony.jpg"/>
+				</div>
+				<div class="column">
+					<img src="brands/oneplus.png"/>
+				</div>
+				<div class="column">
+					<img src="brands/lyf.png"/>
+				</div>
+				<div class="column">
+					<img src="brands/htc.png"/>
+				</div>
+				<div class="column">
+					<img src="brands/Asus.jpg"/>
+				</div>
+			</div>
+		</div>
+		<div class="footer row" style="width:101.2%;">
+			<div class="container">
+			<div class="col-md-6">
+			<br>
+				<h3>Explore/Connect</h3>
+				<br>
+				<p><a href="">Sign In</a></p>
+				<p><a href="">Smartphones</a></p>
+				<p><a href="">Tablets</a></p>
+			</div>
+			<div class="col-md-6">
+				<br>
+				<h3>About Us</h3>
+				<br>
+				<p>Abhishek Jain</p>
+				<p>Ankita Khurrana</p>
+				<p>Nihal Chauhan</p>
+				<p>Kavya Sharma</p>
+			</div>
+			</div>
+		</div>
+	</body>
+</html>
