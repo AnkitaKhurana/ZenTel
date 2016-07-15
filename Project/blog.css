@@ -1,0 +1,43 @@
+.blogimage
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.author
+{
+	
+	text-align: center;
+}
+.blogform
+{
+	
+     margin-left: 250px;
+    
+
+
+}
+.showblock
+{		
+	margin-left: 180px;
+	min-width: 500px;
+	max-width: 980px;
+}
+.contentbox
+{
+	word-wrap: break-word;
+  white-space: pre-wrap;
+	
+}
+.title
+{
+	min-height: 120px;
+
+}
+.blogbuttons
+{
+	margin: 50px;
+	color: red;
+	padding: 50px;
+}

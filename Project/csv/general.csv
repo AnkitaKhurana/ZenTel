@@ -1,0 +1,36 @@
+PID,NAME,BRAND,TYPE,AVG RATING,RATED BY,REVIEWED_BY
+1,Samsung Galaxy S7 Edge,Samsung,S,3,0,0
+2,iPhone 6S Plus,Apple,S,4,0,0
+3,HTC 10,HTC,S,1,0,0
+4,Sony Xperia X Dual,Sony,S,3,0,0
+5,Moto X Force,Motorola,S,5,0,0
+6,Samsung Galaxy S6 Edge,Samsung,S,3.4,0,0
+7,iPhone 6,Apple,S,4.3,0,0
+8,HTC One M9,HTC,S,2.2,0,0
+9,One Plus 3,One Plus,S,4.9,0,0
+10,iPhone 5S,Apple,S,3.7,0,0
+11,Samsung Galaxy A7,Samsung,S,4.6,0,0
+12,HTC One M8,HTC,S,1.2,0,0
+13,Lenovo Vibe X3,Lenovo,S,3.4,0,0
+14,One Plus 2,One Plus,S,4.2,0,0
+15,Sony Xperia XA Dual,Sony,S,0,0,0
+16,Asus Zenfone 2 ZE551ML,Asus,S,0,0,0
+17,Sony Xperia M4 Aqua,Sony,S,0,0,0
+18,Asus Zenfone 2 Laser,Asus,S,0,0,0
+19,LYF Earth 1,LYF,S,0,0,0
+20,Moto G4 Plus,Motorola,S,0,0,0
+21,Lenovo Vibe K5,Lenovo,S,0,0,0
+22,Asus Zenphone Selfie,Asus,S,0,0,0
+23,LYF Water 1,LYF,S,0,0,0
+24,LYF Flame 1,LYF,S,0,0,0
+25,Moto E2,Motorola,S,0,0,0
+26,Samsung Galaxy Tab S2,Samsung,T,0,0,0
+27,Samsung Galaxy Tab 4,Samsung,T,0,0,0
+28,Apple Ipad Air 2,Apple,T,0,0,0
+29,Apple Ipad Pro,Apple,T,0,0,0
+30,Asus Zenpad 8.0,Asus,T,0,0,0
+31,Asus Zenpad 7.0,Asus,T,0,0,0
+32,Lenovo Tab 2,Lenovo,T,0,0,0
+33,Lenovo MIIX,Lenovo,T,0,0,0
+34,Micromax Canvas P680,Micromax,T,0,0,0
+35,Micromax Canvas P480,Micromax,T,0,0,0
